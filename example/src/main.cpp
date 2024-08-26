@@ -39,8 +39,5 @@ int main() {
 
     std::cout << "Concatenated string: " << str3.c_str() << "\n";
 
-    // Shutdown idLib
-    idLib::common->Shutdown();
-
     return 0;
 }
